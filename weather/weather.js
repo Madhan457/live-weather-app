@@ -1,6 +1,6 @@
-const apikey = "?";
+const apikey = "Your api key";
 const apiUrl =
-  "?";
+  "const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";";
 const searchbox = document.getElementById("city-input");
 const searchbtn = document.getElementById("city-btn");
 const weatherIcon = document.getElementById("weather-icon");
@@ -53,4 +53,5 @@ searchbox.addEventListener("keypress", function (event) {
 window.addEventListener("load", () => {
   weather("chennai");
 });
+
 
