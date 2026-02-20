@@ -1,6 +1,6 @@
-const apikey = "2590e4d58f1ff09e6ae80d029d7a307c";
+const apikey = "?";
 const apiUrl =
-  "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
+  "?";
 const searchbox = document.getElementById("city-input");
 const searchbtn = document.getElementById("city-btn");
 const weatherIcon = document.getElementById("weather-icon");
@@ -53,3 +53,4 @@ searchbox.addEventListener("keypress", function (event) {
 window.addEventListener("load", () => {
   weather("chennai");
 });
+
