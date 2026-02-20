@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Live weather Forecast</title>
+    <link rel="stylesheet" href="weather.css" />
+    <link
+      href="https://cdn.boxicons.com/3.0.8/fonts/basic/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script defer src="weather.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="heading">
+        <h1>weather app</h1>
+      </div>
+      <div class="nav-bar">
+        <input type="text" class="city" id="city-input" placeholder="Enter the city name" required />
+        <button id="city-btn"><i class="bx bx-search"></i></button>
+      </div>
+      <div class="weather-details">
+        <img class="image" id="weather-icon" src="/linkedin/weather/images/weather1.png" alt="" />
+        <h1><span id="degree">22</span>&deg;C</h1>
+        <h2 id="display-city">New York</h2>
+      </div>
+      <div class="other-details">
+        <div class="humidity">
+          <img src="/linkedin/weather/images/weather.png" id="images" alt="" />
+          <p><span id="humidity-percentage">50</span>%</p>
+          <h3>Humidity</h3>
+        </div>
+        <div class="wind-speed">
+          <img src="/linkedin/weather/images/wind.png" alt="" />
+          <p><span id="wind-value">50</span>&nbsp;Km/hr</p>
+          <h3>Wind Speed</h3>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
